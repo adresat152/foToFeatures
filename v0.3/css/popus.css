@@ -1,0 +1,11 @@
+* {
+	margin: 2.5px;
+	padding: 0;
+}
+.main-setting {
+	width: 300px;
+	height: 50px;
+}
+#bottom {
+	height: 80px;
+}

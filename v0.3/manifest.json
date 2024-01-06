@@ -1,0 +1,21 @@
+
+{
+  "manifest_version": 3,
+  "name": "GF - Перейти в избранное",
+  "version": "0.3.5",
+  "description": "Release Notes: Изменены кнопки. Добавлены одной групой, добавленны вариации развития макроса, а так же добавленны новые макросы.",
+  "content_scripts": [
+    {
+      "matches": ["https://admin.eda.yandex-team.ru/*"],
+      "js" : ["js/buttons1.js", "js/zamena.js", "bootstrap/js/bootstrap.bundle.js"]
+    }
+],
+  "icons": { "16": "icons/icon16.png",
+           "48": "icons/icon48.png",
+          "128": "icons/icon128.png" },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popus.html"
+    }
+
+}
