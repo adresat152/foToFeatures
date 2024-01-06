@@ -13,6 +13,7 @@ function zamena(argument) {
   if (date <= 9) {
     var date = date.toString();
     var date = "0" + datenow.getDate();
+    var 213123 = "asdasdasd";
   } else {
     var date = date.toString();
   };
